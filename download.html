@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCL 启动器下载</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Minecraft', sans-serif;
+            background: linear-gradient(to bottom, #884ea0, #1b4f72);
+            color: #fff;
+            padding: 0 1rem;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 2rem 0;
+            letter-spacing: 2px;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .download-button {
+            background-color: #4CAF50;
+            border: none;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .download-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .button-description {
+            font-size: 0.9rem;
+            color: #ccc;
+            text-align: center;
+            margin-top: 0.5rem;
+        }
+
+        .changelog-container {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .changelog-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+
+        .changelog-content {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .back-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        @media (min-width: 768px) {
+            .download-button {
+                font-size: 1.5rem;
+                padding: 1.5rem 3rem;
+            }
+
+            .button-description {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://foldcraftlauncher.cn" class="back-button">返回</a>
+    <h1>FCL 启动器下载</h1>
+    <div class="button-container">
+        <div>
+            <a href="https://pan.quark.cn/s/c698b633f071#/list/share" class="download-button">夸克云盘</a>
+            <p class="button-description">无法保证链接为最新版本，但是是启动器更新时提供的链接</p>
+        </div>
+        <div>
+            <a href="https://www.123684.com/s/zcTSVv-sGFO3" class="download-button">123云盘</a>
+            <p class="button-description">几乎保持最新，如果能访问</p>
+        </div>
+        <div>
+            <a href="https://github.com/FCL-Team/FoldCraftLauncher/releases" class="download-button">GitHub</a>
+            <p class="button-description">几乎保持最新，如果能访问</p>
+        </div>
+        <div>
+            <a href="https://mirror.mengze2.cn/proxy/github.com/FCL-Team/FoldCraftLauncher/releases" class="download-button">代理GitHub</a>
+            <p class="button-description">几乎保持最新，如果能访问</p>
+        </div>
+        <div>
+            <a href="d/FCL-release-1.1.8.4-all.apk" class="download-button">all版</a>
+            <p class="button-description">直接下载，但不能保证最新v1.1.8.4</p>
+        </div>
+        <div>
+            <a href="d/FCL-release-1.1.8.4-arm64-v8a.apk" class="download-button">arm64 v8a版</a>
+            <p class="button-description">直接下载，但不能保证最新v1.1.8.4</p>
+        </div>
+    </div>
+
+    <!-- 版本更新日志框 -->
+    <div class="changelog-container">
+        <h2 class="changelog-title">版本更新日志</h2>
+        <div class="changelog-content">
+            <p><strong>v1.1.8.5 更新内容：</strong></p>
+            <ul>
+                <li>修复长按Boat选择渲染器启动为Pojav的bug。</li>
+                <li>添加zink系统驱动提示。</li>
+                <li>允许自定义悬浮球图标。(gif/png)(隐藏功能)</li>
+                <li>更新模组翻译信息。</li>
+                <li>添加”MC百科“快速跳转。</li>
+                <li>修复Pojav后端相关bug。（体素地图、低版本光影闪退）</li>
+                <li>优化按键加载。</li>
+                <li>修复一些bug，并添加些特性。</li>
+            </ul>
+            <p>更多详情请查阅 <a href="https://github.com/FCL-Team/FoldCraftLauncher/releases">GitHub 发布页面</a>。</p>
+        </div>
+    </div>
+</body>
+</html>
