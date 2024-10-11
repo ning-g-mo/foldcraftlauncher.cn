@@ -59,9 +59,11 @@ sudo cp -r ./var/www/html
 
 欢迎贡献者加入我们，共同完善和发展```foldcraftlauncher.cn```网站源码！
 
-  **提交 Issue**：如果您发现任何问题或有改进建议，请提交 Issue。
-  **提交 Pull Request**：如果您有代码贡献，请先 Fork 仓库，然后提交 Pull Request。
-  **遵守贡献准则**：请遵循项目的贡献准则，确保代码质量和一致性。
+  1.**提交 Issue**：如果您发现任何问题或有改进建议，请提交 Issue。
+  
+  2.**提交 Pull Request**：如果您有代码贡献，请先 Fork 仓库，然后提交 Pull Request。
+  
+  3.**遵守贡献准则**：请遵循项目的贡献准则，确保代码质量和一致性。
 
 ### 许可证
 
