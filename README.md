@@ -7,6 +7,8 @@
 
 这是一个用于提供 `Fold Craft Launcher` 下载链接的静态网站源码。该网站设计简约，易于维护，并且兼容多种设备，包括桌面和移动设备。
 
+**要主要的是，我们并不属于fold craft launcher的开发者。相关的启动器问题请前往[Fold Craft Launcher官方](https://github.com/FCL-Team/FoldCraftLauncher)提交！**
+
 ## 功能特点
 
 - **简洁设计**：网站采用了简洁的设计风格，易于导航。
