@@ -1,11 +1,11 @@
-# FoldCraftLauncher 网站源码
+# FoldCraftLauncher.cn 网站源码
 
-[![GitHub release](https://img.shields.io/github/v/release/ning-g-mo/FoldCraftLauncher?label=Release&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher/releases)
-[![GitHub stars](https://img.shields.io/github/stars/ning-g-mo/FoldCraftLauncher?label=Stars&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/ning-g-mo/FoldCraftLauncher?label=Release&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher.cn/releases)
+[![GitHub stars](https://img.shields.io/github/stars/ning-g-mo/FoldCraftLauncher?label=Stars&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher.cn/stargazers)
 
 ## 介绍
 
-这是一个用于提供 `FoldCraft Launcher` 下载链接的静态网站源码。该网站设计简约，易于维护，并且兼容多种设备，包括桌面和移动设备。
+这是一个用于提供 `Fold Craft Launcher` 下载链接的静态网站源码。该网站设计简约，易于维护，并且兼容多种设备，包括桌面和移动设备。
 
 ## 功能特点
 
@@ -21,8 +21,8 @@
 确保您的环境中已安装了必要的工具，如 Git 和 Web 服务器（如 Apache 或 Nginx）。
 
 ```bash
-git clone https://github.com/ning-g-mo/FoldCraftLauncher.git
-cd FoldCraftLauncher
+git clone https://github.com/ning-g-mo/FoldCraftLauncher.cn.git
+cd FoldCraftLauncher.cn
 ```
 
 ### 配置
