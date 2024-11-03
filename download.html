@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="fcl,foldcraftlauncher下载,启动器,minecraft启动器,fcl启动器,fcl下载">
+    <meta name="description" content="欢迎访问Fold Craft Launcher (简称fcl启动器)下载页面。为用户提供多渠道下载服务器，别忘记划到底哦～">
     <title>FCL 启动器下载</title>
+        <!-- Google Fonts -->
+    <link href="static/css/css2.css" rel="stylesheet">
+    <!-- Favicon -->
+    <!-- Site All Style Sheet Css -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/themify-icons.css" rel="stylesheet">
+    <link href="static/css/magnific-popup.css" rel="stylesheet">
+    <link href="static/css/animate.min.css" rel="stylesheet">
+    <link href="static/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Site Main Style Sheet Css -->
+    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/css/responsive.css" rel="stylesheet">
     <style>
         body {
             display: flex;
@@ -21,6 +39,7 @@
             font-size: 2.5rem;
             margin: 2rem 0;
             letter-spacing: 2px;
+            text-align: center;
         }
 
         .button-container {
@@ -28,6 +47,8 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
             margin-top: 2rem;
+            width: 100%;
+            max-width: 800px; /* Set a max width for better layout */
         }
 
         .download-button {
@@ -107,6 +128,21 @@
                 font-size: 1.1rem;
             }
         }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .download-button {
+                font-size: 1rem;
+                padding: 0.8rem 1.5rem;
+            }
+
+            .button-description {
+                font-size: 0.8rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -114,7 +150,7 @@
     <h1>FCL 启动器下载</h1>
     <div class="button-container">
         <div>
-            <a href="https://pan.quark.cn/s/c698b633f071#/list/share" class="download-button">夸克云盘</a>
+            <a href="https://pan.quark.cn/s/4eb8884d9353#/list/share" class="download-button">夸克云盘</a>
             <p class="button-description">无法保证链接为最新版本，但是是启动器更新时提供的链接</p>
         </div>
         <div>
@@ -127,15 +163,15 @@
         </div>
         <div>
             <a href="https://mirror.mengze2.cn/proxy/github.com/FCL-Team/FoldCraftLauncher/releases" class="download-button">代理GitHub</a>
-            <p class="button-description">几乎保持最新，如果能访问</p>
+            <p class="button-description">几乎保持最新，如果能访问，感谢@梦泽</p>
         </div>
         <div>
-            <a href="d/FCL-release-1.1.8.4-all.apk" class="download-button">all版</a>
-            <p class="button-description">直接下载，但不能保证最新v1.1.8.4</p>
+            <a href="#" class="download-button">all版</a>
+            <p class="button-description">直连月流量耗尽，于18号重置</p>
         </div>
         <div>
-            <a href="d/FCL-release-1.1.8.4-arm64-v8a.apk" class="download-button">arm64 v8a版</a>
-            <p class="button-description">直接下载，但不能保证最新v1.1.8.4</p>
+            <a href="#" class="download-button">arm64 v8a版</a>
+            <p class="button-description">直连月流量耗尽，于18号重置</p>
         </div>
     </div>
 
@@ -143,19 +179,45 @@
     <div class="changelog-container">
         <h2 class="changelog-title">版本更新日志</h2>
         <div class="changelog-content">
-            <p><strong>v1.1.8.5 更新内容：</strong></p>
+            <p><strong>v1.1.8.7 更新内容：</strong></p>
             <ul>
-                <li>修复长按Boat选择渲染器启动为Pojav的bug。</li>
-                <li>添加zink系统驱动提示。</li>
-                <li>允许自定义悬浮球图标。(gif/png)(隐藏功能)</li>
-                <li>更新模组翻译信息。</li>
-                <li>添加”MC百科“快速跳转。</li>
-                <li>修复Pojav后端相关bug。（体素地图、低版本光影闪退）</li>
-                <li>优化按键加载。</li>
-                <li>修复一些bug，并添加些特性。</li>
+                <li>添加渲染器插件化加载功能</li>
+                <li>优化编辑按键页面。</li>
+                <li>优化启动页面显示效果。</li>
+                <li>修复一些bug。</li>
             </ul>
-            <p>更多详情请查阅 <a href="https://github.com/FCL-Team/FoldCraftLauncher/releases">GitHub 发布页面</a>。</p>
+            <p>更多详情请在启动器内体验 <a href="https://github.com/FCL-Team/FoldCraftLauncher/releases">GitHub 发布页面</a>。</p>
         </div>
     </div>
+    <footer class="footer-area">
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-copyright text-center">
+                <p>2024 网站版权由 @柠枺 所有。</a></p>
+                <a href="https://github.com/ning-g-mo/foldcraftlauncher.cn"></ahref> 查看网站源码</a>
+                <p>网站由<a href="https://www.rainyun.com/NTMxNzI=_">雨云CDN</a>提供加速支持。</p>
+                <a href="赞助/赞助柠枺.png"></ahref> 赞助网站</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Start Back to Top -->
+    <div class="back-to-top">
+      <i class="fa fa-caret-up"></i><i class="fa fa-caret-up"></i>
+    </div>
+    <!-- End Back to Top -->
+
+    <!-- Site All Jquery Js -->
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <!-- Site Main Custom Js -->
+    <script src="static/js/main.js"></script
 </body>
 </html>
