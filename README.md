@@ -69,8 +69,8 @@ sudo cp -r ./var/www/html
 
 ## 许可证
 
-该项目采用 [MIT 许可证](LICENSE)。
+该项目采用 [GPL3.0 许可证](LICENSE)。
 
 ## 联系我们
 
- - **邮箱**：3436464181@qq.com
+ - **邮箱**：i@foldcraftlauncher.cn
