@@ -1,7 +1,7 @@
 # FoldCraftLauncher.cn 网站源码
 
-[![GitHub release](https://img.shields.io/github/v/release/ning-g-mo/FoldCraftLauncher?label=Release&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher.cn/releases)
-[![GitHub stars](https://img.shields.io/github/stars/ning-g-mo/FoldCraftLauncher?label=Stars&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher.cn/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/ning-g-mo/FoldCraftLauncher.cn?label=Release&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher.cn/releases)
+[![GitHub stars](https://img.shields.io/github/stars/ning-g-mo/FoldCraftLauncher.cn?label=Stars&logo=github)](https://github.com/ning-g-mo/FoldCraftLauncher.cn/stargazers)
 
 ## 介绍
 
